@@ -9,4 +9,24 @@
       <initValue>'https://juice-shop.herokuapp.com'</initValue>
       <name>webURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>sumber APK</description>
+      <initValue>'apk/Todo_2.0_APKPure.apk'</initValue>
+      <name>apkPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kasir-api.zelz.my.id'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'x'</initValue>
+      <name>refreshToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'x'</initValue>
+      <name>aksesToken</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

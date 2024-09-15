@@ -70,7 +70,7 @@
       <guid>591fe163-fb48-4984-8414-634fbd9cc144</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/Negative Skenario/Register User</testCaseId>
+      <testCaseId>Test Cases/Website/Positive Skenario/Register User</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4176d8a5-dd7a-4830-9b18-ac033121a15e</id>
