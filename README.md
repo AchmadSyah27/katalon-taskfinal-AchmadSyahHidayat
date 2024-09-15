@@ -4,5 +4,6 @@ Repository ini adalah tempat sebagai hasil training tentang automation testing m
 Dalam Repo ini mengandung tiga tipe testing yaitu pada Website, Mobile dan API.
 Enjoy ...🍻🍻🍻
 
-<img width="1004" alt="image" src="https://github.com/user-attachments/assets/e1d6b0df-1f5b-4fac-955f-1891dafc3485">
+<img width="1195" alt="image" src="https://github.com/user-attachments/assets/3424d2ad-5e0e-48f6-9396-203576ce0893">
+
 
