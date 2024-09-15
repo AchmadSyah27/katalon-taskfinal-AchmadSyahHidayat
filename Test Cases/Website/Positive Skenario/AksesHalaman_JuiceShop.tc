@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Membuka Website OWASP Juice Shop</description>
+   <name>AksesHalaman_JuiceShop</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>666271e2-b1f8-4ad3-9e50-fff84deedef6</testCaseGuid>
+</TestCaseEntity>
