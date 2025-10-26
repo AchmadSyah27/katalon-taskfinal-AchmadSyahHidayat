@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReadMessageFromKafka</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a34c1f3c-4233-4019-a5a0-1b060feda623</testCaseGuid>
+</TestCaseEntity>
