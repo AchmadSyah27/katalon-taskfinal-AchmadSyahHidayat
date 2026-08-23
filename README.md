@@ -101,10 +101,10 @@ File → Open Project → pilih folder hasil clone
 
 ### 3. Set Execution Profile
 ```
-Profiles/default.glbl → sesuaikan nilai:
-- urlInternal  : [URL aplikasi target]
-- username     : [username login]
-- password     : [password login]
+Profiles/SIT:
+- webURL  : https://juice-shop.herokuapp.com
+- apkPath : apk/Todo_2.0_APKPure.apk
+- baseURL     : (https://kasir-api.zelz.my.id)
 ```
 
 ### 4. Jalankan Test Suite
