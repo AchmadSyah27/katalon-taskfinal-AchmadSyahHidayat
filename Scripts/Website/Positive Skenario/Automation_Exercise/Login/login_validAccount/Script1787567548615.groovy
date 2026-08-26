@@ -17,11 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka browser'
 WebUI.openBrowser('')
 
+'Memaksimalkan ukuran layar browser'
 WebUI.maximizeWindow()
 
+'Menuju URL'
 WebUI.navigateToUrl(GlobalVariable.WebAutomation)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
+'Menunggu halaman beranda tampil'
+WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_Beranda/label_home'), 0)
+
+'Memastikan menu login tampil'
+WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_Beranda/label_SignupLogin'), 0)
+
+'Melakukan klik pada menu login'
+WebUI.click(findTestObject('Website/Automation_Excercise/Page_Beranda/label_SignupLogin'), FailureHandling.STOP_ON_FAILURE)
+
+'Menunggu form login tampil'
+WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_LoginRegister/label_loginAccount'), 0)
+
+'Memastikan textbox username tampil'
+WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), 0)
+
+'Melakukan input username'
+WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), GlobalVariable.username)
+
+'Melakukan input password'
+WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_password'), GlobalVariable.passowrd)
+
+'Melakukan klik pada button login'
+WebUI.click(findTestObject('Website/Automation_Excercise/Page_LoginRegister/button_login'), FailureHandling.STOP_ON_FAILURE)
+
+'Menunggu button logout tampil'
+WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_Beranda/label_logout'), 0)
+
+'Memastikan label berhasil login tampil'
+WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_Beranda/label_userLogged'), 0)
 
