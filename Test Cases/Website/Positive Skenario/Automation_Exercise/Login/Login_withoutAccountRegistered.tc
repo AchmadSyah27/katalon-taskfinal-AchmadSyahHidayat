@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_withoutAccountRegistered</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23babddc-8aba-4421-bb28-07fc3e521ce4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09db99ba-e4e6-4369-b349-8409163bc79a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccff4f7d-1247-44c9-b9c2-3dead916e684</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tama009@gmail.com'</defaultValue>
+      <description></description>
+      <id>09db99ba-e4e6-4369-b349-8409163bc79a</id>
+      <masked>false</masked>
+      <name>userNotRegistered</name>
+   </variable>
+   <variable>
+      <defaultValue>'Automation009'</defaultValue>
+      <description></description>
+      <id>ccff4f7d-1247-44c9-b9c2-3dead916e684</id>
+      <masked>false</masked>
+      <name>passNotRegistered</name>
+   </variable>
+</TestCaseEntity>

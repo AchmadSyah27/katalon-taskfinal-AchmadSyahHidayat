@@ -42,17 +42,22 @@ WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_Lo
 WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), 0)
 
 'Melakukan input username'
-WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), GlobalVariable.username)
+WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), userNotRegistered)
 
 'Melakukan input password'
-WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_password'), GlobalVariable.passowrd)
+WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_password'), passNotRegistered)
 
 'Melakukan klik pada button login'
 WebUI.click(findTestObject('Website/Automation_Excercise/Page_LoginRegister/button_login'), FailureHandling.STOP_ON_FAILURE)
 
-'Menunggu button logout tampil'
-WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_Beranda/label_logout'), 0)
+'Menunggu label text email password incorrect tampil'
+WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_LoginRegister/label_emailPass_Incorrect'), 
+    0)
 
-'Memastikan label berhasil login tampil'
-WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_Beranda/label_userLogged'), 0)
+'Memastikan label email password incorrect tampil'
+WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_LoginRegister/label_emailPass_Incorrect'), 
+    0)
+
+'Menutup browser'
+WebUI.closeBrowser()
 
