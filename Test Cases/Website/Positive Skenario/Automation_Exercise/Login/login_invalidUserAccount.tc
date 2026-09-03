@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login_invalidUserAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06a0f0b0-c309-4ea6-9d66-e0f258ce9aa5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>969e9ff7-168f-46cf-b6b2-9aa516f5ea00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>569fec00-94fb-4d26-a397-febd2f89496d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'royalin@rockmail.com'</defaultValue>
+      <description></description>
+      <id>969e9ff7-168f-46cf-b6b2-9aa516f5ea00</id>
+      <masked>false</masked>
+      <name>IncorrectUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'Qwerty999!'</defaultValue>
+      <description></description>
+      <id>569fec00-94fb-4d26-a397-febd2f89496d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

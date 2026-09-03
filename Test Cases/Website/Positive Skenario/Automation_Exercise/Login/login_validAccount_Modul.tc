@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>login_validAccount</name>
+   <name>login_validAccount_Modul</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cb949987-983e-4d91-bdd2-9cf97c1e2714</testCaseGuid>
+   <testCaseGuid>ed256986-5d9f-481e-be34-edb078c664f1</testCaseGuid>
 </TestCaseEntity>

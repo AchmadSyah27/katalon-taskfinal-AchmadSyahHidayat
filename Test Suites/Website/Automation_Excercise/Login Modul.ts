@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login Modul</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ccbfa649-fc06-422a-b69f-70bc3b37185c</testSuiteGuid>
+   <testCaseLink>
+      <guid>062a6526-e51c-42f8-8cca-c457f058aa59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Website/Positive Skenario/Automation_Exercise/Login/login_invalidPasswordAccount</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15865707-1f55-402e-af6b-ade1666c470f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42a1678f-eaf4-4f9a-9431-23facb0ec292</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5417413-911e-4334-bf9f-502b4d15ce9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Website/Positive Skenario/Automation_Exercise/Login/login_invalidUserAccount</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>969e9ff7-168f-46cf-b6b2-9aa516f5ea00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>569fec00-94fb-4d26-a397-febd2f89496d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50c97a99-b49f-4f2d-8dea-5bbd721db498</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Website/Positive Skenario/Automation_Exercise/Login/login_validAccount</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17caad68-1866-4f0f-8a44-02b112840538</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Website/Positive Skenario/Automation_Exercise/Login/login_validAccount_Modul</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33404b8a-9645-4ba0-9593-f14fec8fc8cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Website/Positive Skenario/Automation_Exercise/Login/Login_withoutAccountRegistered</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09db99ba-e4e6-4369-b349-8409163bc79a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ccff4f7d-1247-44c9-b9c2-3dead916e684</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
