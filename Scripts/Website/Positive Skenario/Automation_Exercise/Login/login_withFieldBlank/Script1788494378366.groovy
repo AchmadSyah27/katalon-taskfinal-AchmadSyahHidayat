@@ -42,10 +42,10 @@ WebUI.waitForElementPresent(findTestObject('Website/Automation_Excercise/Page_Lo
 WebUI.verifyElementPresent(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), 0)
 
 'Melakukan input username'
-WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), GlobalVariable.username)
+WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_emailUsername'), '')
 
 'Melakukan input password'
-WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_password'), incorrectPass)
+WebUI.sendKeys(findTestObject('Website/Automation_Excercise/Page_LoginRegister/textbox_password'), '')
 
 'Melakukan klik pada button login'
 WebUI.click(findTestObject('Website/Automation_Excercise/Page_LoginRegister/button_login'), FailureHandling.STOP_ON_FAILURE)
